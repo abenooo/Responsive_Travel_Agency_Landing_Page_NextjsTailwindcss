@@ -9,7 +9,8 @@ const jwksRsa = require('jwks-rsa');
 
 const app = express();
 const port = process.env.API_PORT || 3001;
-const baseUrl = process.env.AUTH0_BASE_URL;
+// const baseUrl = process.env.AUTH0_BASE_URL;
+const baseUrl = 'https://responsive-travel-agency-landing-page-nextjs-tailwindcss.vercel.app'
 const issuerBaseUrl = process.env.AUTH0_ISSUER_BASE_URL;
 const audience = process.env.AUTH0_AUDIENCE;
 
