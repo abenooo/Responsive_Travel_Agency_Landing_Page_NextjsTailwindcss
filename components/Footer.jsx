@@ -40,9 +40,9 @@ function Footer() {
             <nav className="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
               <Link className="inline-block" href="/">
                 {" "}
-                linkedin {" "}
+                Linkedin {" "}
               </Link>
-              <Link className="inline-block" href="/">
+              <Link className="inline-block" href="https://www.linkedin.com/in/abenezer-kifle-2490271a3/">
                 {" "}
                 Facebook{" "}
               </Link>
@@ -62,7 +62,7 @@ function Footer() {
             <nav className="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
               <Link className="inline-block" href="/">
                 {" "}
-               Call 951{" "}
+               Call 0910979060{" "}
               </Link>
               <Link className="inline-block" href="/faq">
                 {" "}
