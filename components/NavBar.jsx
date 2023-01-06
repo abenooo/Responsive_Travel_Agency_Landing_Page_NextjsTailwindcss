@@ -73,7 +73,12 @@ const NavBar = () => {
                 <PageLink href="/about" className="nav-link" testId="navbar-home">
                   About Us
                 </PageLink>
-              </NavItem>
+              </NavItem> 
+              <NavItem>
+                <PageLink href="/testimonials" className="nav-link" testId="navbar-home">
+                Testimonials
+                </PageLink>
+              </NavItem> 
 
             </Nav>
             <Nav className="d-none d-md-block" navbar>
