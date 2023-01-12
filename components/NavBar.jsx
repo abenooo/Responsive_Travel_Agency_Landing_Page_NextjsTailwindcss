@@ -52,16 +52,6 @@ const NavBar = () => {
                       Packages
                     </PageLink>
                   </NavItem>
-                  {/* <NavItem>
-                    <PageLink href="/csr" className="nav-link" testId="navbar-csr">
-                      Client-side rendered page
-                    </PageLink>
-                  </NavItem>
-                  <NavItem>
-                    <PageLink href="/ssr" className="nav-link" testId="navbar-ssr">
-                      Server-side rendered page
-                    </PageLink>
-                  </NavItem> */}
                 </>
               )}
               <NavItem>
@@ -77,6 +67,11 @@ const NavBar = () => {
               <NavItem>
                 <PageLink href="/testimonials" className="nav-link" testId="navbar-home">
                 Testimonials
+                </PageLink>
+              </NavItem> 
+              <NavItem>
+                <PageLink href="/test" className="nav-link" testId="navbar-home">
+                test
                 </PageLink>
               </NavItem> 
 
